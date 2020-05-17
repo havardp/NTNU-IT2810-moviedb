@@ -1,0 +1,51 @@
+{
+  "homepage": ".",
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.2",
+    "apollo-boost": "^0.4.4",
+    "apollo-link-context": "^1.0.19",
+    "chroma-js": "^2.0.6",
+    "cypress": "^3.4.1",
+    "graphql": "^14.5.8",
+    "mobx": "^5.14.0",
+    "mobx-react-lite": "^1.5.0",
+    "react": "^16.10.1",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-bottom-scroll-listener": "^3.0.0",
+    "react-dom": "^16.10.1",
+    "react-hamburger-menu": "^1.1.1",
+    "react-input-switch": "^2.1.31",
+    "react-ratings-declarative": "^3.4.1",
+    "react-responsive-modal": "^4.0.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "styled-components": "^4.4.0",
+    "victory": "^33.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "test:cypress": "cypress open",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:5000",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
